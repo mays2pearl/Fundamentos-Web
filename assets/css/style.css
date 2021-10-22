@@ -1,0 +1,39 @@
+/*Estilos da página index.html*/
+.center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.minhaClasse {
+    background-image: linear-gradient(red, rgb(255, 0, 255));
+  }
+.minhaFonte{
+    font-family: Copperplate, Papyrus, fantasy;
+    color: cornsilk;
+    font-size: 40px;
+}
+#menu li{
+    display: inline;
+    padding: 15px;
+    text-decoration: none;
+}
+#menu li a{
+    text-decoration:none;
+    color: cornsilk;
+    font-size: 20px;
+
+}
+#menu li a:hover{
+    color: cyan;
+}
+.p-30{
+    padding: 30pk;
+}
+.br-50{
+    border-radius: 20%;
+}
+
+/*Estilos da página contato.html*/
