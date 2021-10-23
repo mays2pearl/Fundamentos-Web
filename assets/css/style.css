@@ -14,6 +14,11 @@
     font-family: Copperplate, Papyrus, fantasy;
     color: cornsilk;
     font-size: 40px;
+    text-align: center;
+}
+
+.fonteText{
+    font-size: 20px;  
 }
 #menu li{
     display: inline;
@@ -30,10 +35,35 @@
     color: cyan;
 }
 .p-30{
-    padding: 30pk;
+    padding: 30px;
 }
 .br-50{
     border-radius: 20%;
+    width: 500px;
+    height: 400px;
+    
 }
+.tm-social{
+width: 50px;
+height: 50px;
+
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+#myDIV {
+   
+    
+    animation: mymove 2s infinite;
+  }
+  
+  @keyframes mymove {
+    from {background-color:rgb(255, 0, 200);}
+    to {background-color: rgb(238, 157, 201);background: rgb(255, 0, 55);}
+  }
 
 /*Estilos da página contato.html*/
+
+.ml-50{
+    margin-left: 50px;
+}
